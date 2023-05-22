@@ -97,6 +97,12 @@
         img{
             width: 50%;
             object-fit: cover;
+         @media(max-width: 480px){
+            transition: all .3s;
+            &:hover{
+                width: 120%;  
+            }
+         }
         }
         @media(max-width:780px){
             justify-content: center;
