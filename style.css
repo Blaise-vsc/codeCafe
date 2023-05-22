@@ -580,7 +580,7 @@ a .button {
 
 @media (max-width: 480px) {
   .menuParentRightDivs-bottom {
-    background: url(./IMG/fourth.png);
+    background: linear-gradient(black, rgba(255, 255, 255, 0.12)), url(./IMG//secondpick.png);
     background-size: cover;
   }
 }
