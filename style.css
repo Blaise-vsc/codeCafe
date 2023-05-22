@@ -580,6 +580,9 @@ a .button {
 
 @media (max-width: 480px) {
   .menuParentRightDivs-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(black, rgba(255, 255, 255, 0.12)), url(./IMG//secondpick.png);
     background-size: cover;
   }
