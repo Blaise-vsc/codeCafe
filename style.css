@@ -439,6 +439,11 @@ a .button {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
 }
+@media (max-width: 480px) {
+  .menuParentRightDivs .navDivs .navDivsChild .header {
+    padding: 0px;
+  }
+}
 .menuParentRightDivs .navDivs .navDivsChild .header a {
   color: #180b01;
 }
@@ -512,4 +517,11 @@ a .button {
 }
 .navdivsImgSingle .imgSingle img {
   width: 50%;
+}
+
+@media (max-width: 480px) {
+  .headerdiv a {
+    font-size: 80%;
+    padding: 4px;
+  }
 }/*# sourceMappingURL=style.css.map */

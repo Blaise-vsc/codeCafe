@@ -34,6 +34,9 @@
             padding: 0rem 2rem;
             background: #5e12120b;
             backdrop-filter: blur(10px);
+            @media(max-width:480px){
+                padding: 0px;
+            }
             a{
                 color: #180b01;
             }
@@ -108,4 +111,13 @@
             width: 50%;
         }
     }
+};
+.headerdiv{
+   @media(max-width: 480px){
+   
+    a{
+        font-size: 80%;
+        padding: 4px;
+    }
+   }
 }
