@@ -567,7 +567,7 @@ a .button {
     transition: all 0.3s;
   }
   .navdivsImgSingle .imgSingle:hover {
-    width: 120%;
+    width: 170%;
   }
 }
 
