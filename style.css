@@ -576,4 +576,16 @@ a .button {
     font-size: 80%;
     padding: 4px;
   }
+}
+
+@media (max-width: 480px) {
+  .menuParentRightDivs-bottom {
+    background: url(./IMG/fourth.png);
+    background-size: cover;
+  }
+}
+@media (max-width: 480px) {
+  .menuParentRightDivs-bottom .delite {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

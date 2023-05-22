@@ -144,4 +144,15 @@
         padding: 4px;
     }
    }
+};
+.menuParentRightDivs-bottom{
+    @media(max-width: 480px){
+       background: url(./IMG/fourth.png);
+       background-size: cover;
+    }
+    .delite{
+        @media(max-width: 480px){
+            display: none;
+        }
+    }
 }
