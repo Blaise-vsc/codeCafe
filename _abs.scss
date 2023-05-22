@@ -89,6 +89,10 @@
         align-items: center;
         justify-content: end;
         margin-left: -1rem;
+        @media(max-width:480px){
+            justify-content: center;  
+            margin-left: 0px;
+          }
        
         img{
             width: 50%;

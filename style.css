@@ -388,6 +388,12 @@ a .button {
   justify-content: end;
   margin-left: -1rem;
 }
+@media (max-width: 480px) {
+  .menu_child .imageMenu {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
 .menu_child .imageMenu img {
   width: 50%;
   -o-object-fit: cover;
