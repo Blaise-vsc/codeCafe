@@ -66,6 +66,13 @@
         border: none;
         color: #180b01;
         padding: 25px 20px;
+        @media(max-width:480px){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            padding: 25px 5px;
+          }
         a{
             color: #180b01;
             font-size: 100%;

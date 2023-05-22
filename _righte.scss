@@ -97,6 +97,9 @@
       background: #ffffff0b;
       backdrop-filter: blur(10px);
       padding: 0px 2rem;
+      @media(max-width:480px){
+        padding: 5px;
+      }
       a{
         color: #180b01;
       }
