@@ -52,6 +52,12 @@
             
             img{
                 width: 50%;
+                @media(max-width:480px){
+                    transition: all .3s;
+                    &:hover{
+                        width: 100%;  
+                    }
+                }
             }
         }
 

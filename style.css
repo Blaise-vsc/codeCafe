@@ -372,7 +372,7 @@ a .button {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 25px 5px;
+    padding: 25px 10px;
   }
 }
 .menu_child .menuHeader a {
@@ -474,6 +474,14 @@ a .button {
 }
 .menuParentRightDivs .navDivs .navDivsChild .navchild01 img {
   width: 50%;
+}
+@media (max-width: 480px) {
+  .menuParentRightDivs .navDivs .navDivsChild .navchild01 img {
+    transition: all 0.3s;
+  }
+  .menuParentRightDivs .navDivs .navDivsChild .navchild01 img:hover {
+    width: 100%;
+  }
 }
 
 .menuParentRightDivs-bottom {
