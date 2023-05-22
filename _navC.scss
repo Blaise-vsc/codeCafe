@@ -113,6 +113,9 @@
     padding: 10px;
     color: #fffbf9;
     gap: 15px;
+    .textSec{
+        display: none;
+    }
     @media(max-width:768px){
         width: 90%;
         height: 50%;
