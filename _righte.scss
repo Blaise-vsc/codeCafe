@@ -79,8 +79,9 @@
     flex-direction: column;
     padding: 1rem 2rem;
     
-    background: #62605f;
-    height: 33%;
+    background: #62605fd1;
+    backdrop-filter: blur(3px);
+    height: 50%;
     color: white;
     h1{
         font-size: 120%
@@ -158,5 +159,67 @@
         @media(max-width: 480px){
             display: none;
         }
+    }
+};
+.imbed{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    position: absolute;
+    right: 20%;
+    transition: all .5s;
+    .download{ 
+        width: 10%;
+        padding: 15px 20px;
+        background: #180b017c;
+        backdrop-filter: blur(7px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    
+};
+iframe{
+
+    position: absolute;
+    border-radius: 10px;
+    left: -17%;
+    // top: -33%;
+    transition: all 1s;
+    z-index: 10000;
+
+    &:hover{
+        left: 5%;
+        .download{
+         left: 5%
+        }
+    }
+    @media(max-width: 480px){
+            left: -65%;
+            bottom: -60%;
+            opacity: 50%;
+            &:hover{
+                left: 24% ;
+                opacity: 100%; 
+            }
+    }
+};
+.download {
+    position: absolute;
+    left: 5%;
+    @media(max-width: 480px){
+        position: none;
+        
+}
+}
+.downloadbbb{
+    display: none;
+    @media(max-width: 480px){
+        padding: 10px 20px;
+        background: #180b01;
+        border-radius: 20px;
+      display: block;
     }
 }
