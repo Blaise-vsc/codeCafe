@@ -606,6 +606,7 @@ a .button {
   transition: all 0.5s;
 }
 .imbed .download {
+  z-index: 10000000;
   width: 10%;
   padding: 15px 20px;
   background: rgba(24, 11, 1, 0.4862745098);
@@ -633,6 +634,17 @@ iframe:hover .download {
 @media (max-width: 480px) {
   iframe {
     left: -65%;
+    bottom: -60%;
+    opacity: 50%;
+  }
+  iframe:hover {
+    left: 24%;
+    opacity: 100%;
+  }
+}
+@media (max-width: 360px) {
+  iframe {
+    left: -72%;
     bottom: -60%;
     opacity: 50%;
   }

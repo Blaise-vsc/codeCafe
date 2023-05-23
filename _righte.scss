@@ -170,6 +170,7 @@
     right: 20%;
     transition: all .5s;
     .download{ 
+        z-index: 10000000;
         width: 10%;
         padding: 15px 20px;
         background: #180b017c;
@@ -205,6 +206,15 @@ iframe{
                 opacity: 100%; 
             }
     }
+    @media(max-width: 360px){
+        left: -72%;
+        bottom: -60%;
+        opacity: 50%;
+        &:hover{
+            left: 24% ;
+            opacity: 100%; 
+        }
+}
 };
 .download {
     position: absolute;
@@ -216,6 +226,7 @@ iframe{
 }
 .downloadbbb{
     display: none;
+    // z-index: 1000000;
     @media(max-width: 480px){
         padding: 10px 20px;
         background: #894109;
